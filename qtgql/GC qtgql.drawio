@@ -1,1 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T10:07:55.377Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.8.20" etag="BaLhQC2d7DiLrvM4i-Zg" type="github"><diagram name="Page-1" id="VD9JobGB3_xtW_xpaBxS">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-09T10:18:29.046Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="kfeOhO3CpW2r2l9Zo59z" version="20.8.20" type="github">
+  <diagram name="Page-1" id="VD9JobGB3_xtW_xpaBxS">
+    <mxGraphModel dx="1360" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_G7MSOuC7wHpOw161iKL-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_G7MSOuC7wHpOw161iKL-1" target="_G7MSOuC7wHpOw161iKL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_G7MSOuC7wHpOw161iKL-1" value="ObjectType3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_G7MSOuC7wHpOw161iKL-3" value="Store" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_G7MSOuC7wHpOw161iKL-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_G7MSOuC7wHpOw161iKL-7" target="_G7MSOuC7wHpOw161iKL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_G7MSOuC7wHpOw161iKL-7" value="ObjectType2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_G7MSOuC7wHpOw161iKL-8" value="Store" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_G7MSOuC7wHpOw161iKL-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_G7MSOuC7wHpOw161iKL-10" target="_G7MSOuC7wHpOw161iKL-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_G7MSOuC7wHpOw161iKL-10" value="ObjectType1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_G7MSOuC7wHpOw161iKL-11" value="Store" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_G7MSOuC7wHpOw161iKL-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_G7MSOuC7wHpOw161iKL-15" target="_G7MSOuC7wHpOw161iKL-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_G7MSOuC7wHpOw161iKL-15" value="QueryHandler1" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="290" width="270" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="_G7MSOuC7wHpOw161iKL-17" value="list of id&#39;s or references for a ObjectType1 instances" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_G7MSOuC7wHpOw161iKL-15">
+          <mxGeometry x="50" y="50" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_G7MSOuC7wHpOw161iKL-22" value="list of id&#39;s or references for a ObjectType3 instances" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_G7MSOuC7wHpOw161iKL-15">
+          <mxGeometry x="50" y="160" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_G7MSOuC7wHpOw161iKL-21" value="list of id&#39;s or references for a ObjectType2 instances" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_G7MSOuC7wHpOw161iKL-15">
+          <mxGeometry x="50" y="100" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_G7MSOuC7wHpOw161iKL-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_G7MSOuC7wHpOw161iKL-17" target="_G7MSOuC7wHpOw161iKL-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_G7MSOuC7wHpOw161iKL-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_G7MSOuC7wHpOw161iKL-21" target="_G7MSOuC7wHpOw161iKL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_G7MSOuC7wHpOw161iKL-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_G7MSOuC7wHpOw161iKL-22" target="_G7MSOuC7wHpOw161iKL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_G7MSOuC7wHpOw161iKL-26" value="QueryHandler2" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="550" width="270" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="_G7MSOuC7wHpOw161iKL-27" value="list of id&#39;s or references for a ObjectType1 instances" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_G7MSOuC7wHpOw161iKL-26">
+          <mxGeometry x="50" y="50" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_G7MSOuC7wHpOw161iKL-28" value="list of id&#39;s or references for a ObjectType3 instances" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_G7MSOuC7wHpOw161iKL-26">
+          <mxGeometry x="50" y="160" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_G7MSOuC7wHpOw161iKL-29" value="list of id&#39;s or references for a ObjectType2 instances" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_G7MSOuC7wHpOw161iKL-26">
+          <mxGeometry x="50" y="100" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_G7MSOuC7wHpOw161iKL-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_G7MSOuC7wHpOw161iKL-27" target="_G7MSOuC7wHpOw161iKL-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_G7MSOuC7wHpOw161iKL-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_G7MSOuC7wHpOw161iKL-29" target="_G7MSOuC7wHpOw161iKL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_G7MSOuC7wHpOw161iKL-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_G7MSOuC7wHpOw161iKL-28" target="_G7MSOuC7wHpOw161iKL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_G7MSOuC7wHpOw161iKL-35" value="when a query handler is not referenced by any component, it releases retenation for data." style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.stickyNote2;fontColor=#666666;mainText=;fontSize=17;whiteSpace=wrap;fillColor=#ffffcc;strokeColor=#F62E00;" vertex="1" parent="1">
+          <mxGeometry x="550" y="40" width="200" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
