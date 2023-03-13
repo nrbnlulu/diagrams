@@ -1,56 +1,83 @@
-<mxfile host="app.diagrams.net" modified="2023-02-16T10:55:38.240Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="b353Zk09C-jcIp-C7-vg" version="20.8.20" type="github">
-  <diagram id="C5RBs43oDa-KdzZeNtuy" name="v0.2">
-    <mxGraphModel dx="1360" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2023-03-13T14:25:03.880Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="yk8mgc_xKYe1A5SYzKtX" version="21.0.6" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="v0.3">
+    <mxGraphModel dx="2187" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="EOmv4hRw70twa0YLxiHF-4" value="Pre-runtime&lt;br&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="420" y="40" width="350" height="350" as="geometry" />
+          <mxGeometry x="810" y="20" width="230" height="290" as="geometry">
+            <mxRectangle x="420" y="40" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="EOmv4hRw70twa0YLxiHF-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="EOmv4hRw70twa0YLxiHF-4" source="EOmv4hRw70twa0YLxiHF-5" target="EOmv4hRw70twa0YLxiHF-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EOmv4hRw70twa0YLxiHF-5" value="schema is parsed and generates `QGraphQLObject`&#39;s" style="rounded=1;whiteSpace=wrap;html=1;" parent="EOmv4hRw70twa0YLxiHF-4" vertex="1">
-          <mxGeometry x="150" y="40" width="180" height="110" as="geometry" />
+          <mxGeometry x="30" y="30" width="180" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="EOmv4hRw70twa0YLxiHF-7" value="queries.graphql is parsed and generates query handlers singletones correspondingly" style="whiteSpace=wrap;html=1;rounded=1;" parent="EOmv4hRw70twa0YLxiHF-4" vertex="1">
-          <mxGeometry x="180" y="200" width="120" height="80" as="geometry" />
+        <mxCell id="EOmv4hRw70twa0YLxiHF-7" value="operations.graphql is parsed and generates query / mutation handlers&amp;nbsp; correspondingly" style="whiteSpace=wrap;html=1;rounded=1;" parent="EOmv4hRw70twa0YLxiHF-4" vertex="1">
+          <mxGeometry x="60" y="190" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vrsXb0neiV9GhgLSQQDM-0" value="Runtime&lt;br&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="30" y="40" width="370" height="435" as="geometry" />
+        <mxCell id="vrsXb0neiV9GhgLSQQDM-0" value="Runtime&lt;br&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-220" y="10" width="940" height="770" as="geometry" />
         </mxCell>
-        <mxCell id="vrsXb0neiV9GhgLSQQDM-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vrsXb0neiV9GhgLSQQDM-0" source="vrsXb0neiV9GhgLSQQDM-1" target="vrsXb0neiV9GhgLSQQDM-2">
+        <mxCell id="Xat6MT_SiIzXH4kpxvsE-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vrsXb0neiV9GhgLSQQDM-0" source="vrsXb0neiV9GhgLSQQDM-1" target="Xat6MT_SiIzXH4kpxvsE-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vrsXb0neiV9GhgLSQQDM-1" value="user sets-up an eventloop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="vrsXb0neiV9GhgLSQQDM-0">
-          <mxGeometry x="220" y="50" width="120" height="60" as="geometry" />
+        <mxCell id="vrsXb0neiV9GhgLSQQDM-1" value="user sets-up an eventloop" style="rounded=1;whiteSpace=wrap;html=1;" parent="vrsXb0neiV9GhgLSQQDM-0" vertex="1">
+          <mxGeometry x="460" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vrsXb0neiV9GhgLSQQDM-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vrsXb0neiV9GhgLSQQDM-0" source="vrsXb0neiV9GhgLSQQDM-2" target="vrsXb0neiV9GhgLSQQDM-4">
+        <mxCell id="Xat6MT_SiIzXH4kpxvsE-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vrsXb0neiV9GhgLSQQDM-0" source="Xat6MT_SiIzXH4kpxvsE-1" target="Xat6MT_SiIzXH4kpxvsE-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vrsXb0neiV9GhgLSQQDM-2" value="user initialize an environment" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vrsXb0neiV9GhgLSQQDM-0">
-          <mxGeometry x="20" y="50" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vrsXb0neiV9GhgLSQQDM-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vrsXb0neiV9GhgLSQQDM-0" source="vrsXb0neiV9GhgLSQQDM-4" target="vrsXb0neiV9GhgLSQQDM-6">
+        <mxCell id="Xat6MT_SiIzXH4kpxvsE-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vrsXb0neiV9GhgLSQQDM-0" source="Xat6MT_SiIzXH4kpxvsE-1" target="Xat6MT_SiIzXH4kpxvsE-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vrsXb0neiV9GhgLSQQDM-4" value="the query handlers (singletons) are initialized. by qml engine or by hand." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vrsXb0neiV9GhgLSQQDM-0">
-          <mxGeometry x="20" y="190" width="120" height="60" as="geometry" />
+        <mxCell id="Xat6MT_SiIzXH4kpxvsE-1" value="fetching queries" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vrsXb0neiV9GhgLSQQDM-0">
+          <mxGeometry x="580" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vrsXb0neiV9GhgLSQQDM-6" value="&amp;nbsp;`UseQuery` defined in QML obtains a requirement for the query data to live for as long that they live." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vrsXb0neiV9GhgLSQQDM-0">
-          <mxGeometry x="200" y="240" width="120" height="90" as="geometry" />
+        <mxCell id="Xat6MT_SiIzXH4kpxvsE-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vrsXb0neiV9GhgLSQQDM-0" source="Xat6MT_SiIzXH4kpxvsE-3" target="Xat6MT_SiIzXH4kpxvsE-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vrsXb0neiV9GhgLSQQDM-15" value="queries are fetched when an watcher is registered." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vrsXb0neiV9GhgLSQQDM-0">
-          <mxGeometry x="20" y="330" width="120" height="60" as="geometry" />
+        <mxCell id="Xat6MT_SiIzXH4kpxvsE-3" value="declarative - using the auto generated Require&amp;lt;operationName&amp;gt; (declarative" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vrsXb0neiV9GhgLSQQDM-0">
+          <mxGeometry x="420" y="210" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vrsXb0neiV9GhgLSQQDM-20" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.45;exitY=-0.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="vrsXb0neiV9GhgLSQQDM-0" source="vrsXb0neiV9GhgLSQQDM-15" target="vrsXb0neiV9GhgLSQQDM-4">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="80" y="320" as="sourcePoint" />
-            <mxPoint x="70" y="270" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="70" y="280" />
-            </Array>
+        <mxCell id="Xat6MT_SiIzXH4kpxvsE-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vrsXb0neiV9GhgLSQQDM-0" source="Xat6MT_SiIzXH4kpxvsE-5" target="Xat6MT_SiIzXH4kpxvsE-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xat6MT_SiIzXH4kpxvsE-5" value="imperative - using the BaseOperationHandler&lt;br&gt;API directly." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vrsXb0neiV9GhgLSQQDM-0">
+          <mxGeometry x="709" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Xat6MT_SiIzXH4kpxvsE-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vrsXb0neiV9GhgLSQQDM-0" source="Xat6MT_SiIzXH4kpxvsE-7" target="Xat6MT_SiIzXH4kpxvsE-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xat6MT_SiIzXH4kpxvsE-7" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;query is fetched when a component is created it would call BaseOperationHandler.fetch()&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vrsXb0neiV9GhgLSQQDM-0">
+          <mxGeometry x="420" y="350" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Xat6MT_SiIzXH4kpxvsE-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vrsXb0neiV9GhgLSQQDM-0" source="Xat6MT_SiIzXH4kpxvsE-10" target="Xat6MT_SiIzXH4kpxvsE-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xat6MT_SiIzXH4kpxvsE-10" value="Component is destroyed" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vrsXb0neiV9GhgLSQQDM-0">
+          <mxGeometry x="450" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Xat6MT_SiIzXH4kpxvsE-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.579;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="vrsXb0neiV9GhgLSQQDM-0" source="Xat6MT_SiIzXH4kpxvsE-14" target="Xat6MT_SiIzXH4kpxvsE-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="745" y="620" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Xat6MT_SiIzXH4kpxvsE-14" value="BaseOperationHandler.dispose() is called" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vrsXb0neiV9GhgLSQQDM-0">
+          <mxGeometry x="674" y="480" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Xat6MT_SiIzXH4kpxvsE-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="vrsXb0neiV9GhgLSQQDM-0" source="Xat6MT_SiIzXH4kpxvsE-16" target="Xat6MT_SiIzXH4kpxvsE-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xat6MT_SiIzXH4kpxvsE-16" value="query is fetched by calling BaseOperationHandler.fetch()" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vrsXb0neiV9GhgLSQQDM-0">
+          <mxGeometry x="710" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Xat6MT_SiIzXH4kpxvsE-20" value="the operation starts loosing ownership on nodes, results deleting nodes without retainers." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vrsXb0neiV9GhgLSQQDM-0">
+          <mxGeometry x="510" y="640" width="190" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
